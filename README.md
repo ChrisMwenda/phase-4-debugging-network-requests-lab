@@ -60,14 +60,19 @@ developing your own process.
 
 ## Your Notes Here
 
-- Add a new toy when the toy form is submitted
 
-  - How I debugged:
+Add a new toy when the toy form is submitted
 
-- Update the number of likes for a toy
+    How I debugged:
 
-  - How I debugged:
+After checking the create method I realized that there's mispelling (plural) in Toys.create and changed it to Toy instead which resolved my error!
 
-- Donate a toy to Goodwill (and delete it from our database)
+Update the number of likes for a toy
 
-  - How I debugged:
+    How I debugged: 
+    In order to solve this error, I edited the render method to specify the render
+
+Donate a toy to Goodwill (and delete it from our database)
+
+    How I debugged: 
+  There was no specified route for destroy (delete) method on the routes. I added it and resolved the 404 error
